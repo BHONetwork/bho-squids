@@ -2,11 +2,11 @@
   "name": "bho-squids",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
   "private": true,
-  "dependencies": {},
   "devDependencies": {
     "@nrwl/cli": "14.4.3",
+    "@nrwl/js": "14.4.3",
+    "@nrwl/node": "14.4.3",
     "@nrwl/nx-cloud": "latest",
     "@nrwl/workspace": "14.4.3",
     "nx": "14.4.3",
@@ -14,6 +14,8 @@
     "typescript": "~4.7.2"
   },
   "workspaces": [
-    "packages/**"
-  ]
+    "packages/**",
+    "apps/**"
+  ],
+  "packageManager": "yarn@3.2.2"
 }
