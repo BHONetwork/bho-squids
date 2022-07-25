@@ -1,0 +1,8 @@
+{
+  "name": "bho-squid-archive",
+  "version": "0.0.1",
+  "scripts": {
+    "start:phoenix:dev": "docker-compose --env-file ./config/.env.phoenix.dev -p phoenix-dev-squid-archive up",
+    "start:ulas:dev": "docker-compose --env-file ./config/.env.ulas.dev -p ulas-dev-squid-archive up"
+  }
+}
