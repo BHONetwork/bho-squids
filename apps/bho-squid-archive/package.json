@@ -2,7 +2,8 @@
   "name": "@bho-squids/bho-squid-archive",
   "version": "0.0.1",
   "scripts": {
+    "start:phoenix": "docker-compose --env-file ./config/.env.phoenix -p phoenix-squid-archive up",
     "start:phoenix:dev": "docker-compose --env-file ./config/.env.phoenix.dev -p phoenix-dev-squid-archive up",
-    "start:ulas:dev": "docker-compose --env-file ./config/.env.ulas.dev -p ulas-dev-squid-archive up"
+    "start:ulas": "docker-compose --env-file ./config/.env.ulas -p ulas-squid-archive up"
   }
 }

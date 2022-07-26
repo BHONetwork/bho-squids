@@ -30,6 +30,8 @@ services:
     ]
     ports:
       - "${INGEST_PORT}:9090" # prometheus port
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
 
   gateway:
     depends_on:
