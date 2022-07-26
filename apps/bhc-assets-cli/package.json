@@ -1,0 +1,18 @@
+{
+  "name": "@bho-squids/bhc-assets-cli",
+  "version": "0.0.1",
+  "dependencies": {
+    "@polkadot/api": "^8.14.1",
+    "@polkadot/api-contract": "^8.14.1",
+    "chalk": "4",
+    "commander": "^9.4.0",
+    "initials": "^3.1.2",
+    "unique-names-generator": "^4.7.1"
+  },
+  "scripts": {
+    "start": "ts-node --project tsconfig.app.json src/main.ts"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.1"
+  }
+}

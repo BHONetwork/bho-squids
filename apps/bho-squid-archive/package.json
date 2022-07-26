@@ -1,5 +1,5 @@
 {
-  "name": "bho-squid-archive",
+  "name": "@bho-squids/bho-squid-archive",
   "version": "0.0.1",
   "scripts": {
     "start:phoenix:dev": "docker-compose --env-file ./config/.env.phoenix.dev -p phoenix-dev-squid-archive up",
