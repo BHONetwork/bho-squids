@@ -412,9 +412,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@bho-squids/bho-squid-archive@workspace:apps/bho-squid-archive":
+"@bho-squids/bho-squid-archive@workspace:apps/squid-archive":
   version: 0.0.0-use.local
-  resolution: "@bho-squids/bho-squid-archive@workspace:apps/bho-squid-archive"
+  resolution: "@bho-squids/bho-squid-archive@workspace:apps/squid-archive"
   languageName: unknown
   linkType: soft
 
